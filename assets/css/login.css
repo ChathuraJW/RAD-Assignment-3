@@ -1,0 +1,17 @@
+.footer{
+    position: fixed;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+body{
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+    background-image: url("../img/backgroud.jpg");
+}
+#login{
+    border: 1px solid gray;
+    background-color: rgba(180, 180, 180, 0.493);
+}
