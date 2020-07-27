@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 </head>
 <body>
-<div id="login">
         <div class="container">
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-lg-6">
@@ -37,7 +36,6 @@
                 </div>
             </div>
         </div>
-</div>
 <script src="assets/js/bootstrap.js"></script>
 </body>
 </html>
