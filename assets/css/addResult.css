@@ -1,0 +1,95 @@
+/*common styles for input text file and select*/
+input[type=text], input[type=file], select {
+    width: 50%;
+    padding: 8px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    min-width: 200px;
+}
+
+select {
+    width: fit-content;
+}
+
+/*upload file styles*/
+input[type=file] {
+    border: none;
+    display: none;
+}
+
+.fileLabel {
+    display: block;
+    width: fit-content;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    padding: 9px;
+    margin: 4px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+}
+
+/*overall div component styles*/
+.showRadio span, .showRest span {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+
+.showRadio, .showRest {
+    display: inline-grid;
+    width: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#actionSection {
+    display: inline-block;
+}
+
+/*radio button section styles*/
+.showRadio label {
+    font-size: 20px;
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    transition: all 0.4s linear;
+    border-radius: 2px;
+    background-color: #80808082;
+}
+
+.showRadio input[type=radio] {
+    visibility: hidden;
+    display: none;
+}
+
+.showRadio input[type=radio]:checked ~ label {
+    background-color: #353746;
+    color: white;
+}
+.navbar{
+    background-color: black;
+    color:white;
+}
+
+/*media query for fix sizes according to viewport size*/
+@media screen and (max-width: 545px) {
+    .showRadio, .showRest {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #actionSection {
+        display: table;
+    }
+}
